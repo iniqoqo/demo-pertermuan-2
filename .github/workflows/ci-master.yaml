@@ -1,0 +1,21 @@
+name: cyberacademy belajar ci/cd on master
+
+on:  
+  push:
+    branches:
+      - master
+
+jobs:  
+  deploy:
+    name: Cyberacademy deploy from master
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      
+      - name: Perintah linux Shell execution
+        run: |
+          git status
+          ls -lah
+          id
+          echo "rizko is deploying to prod"
