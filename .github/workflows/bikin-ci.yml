@@ -1,0 +1,20 @@
+name: cyberacademy belajar ci
+
+on:  
+  pull_request:
+    branches:
+      - master
+
+jobs:  
+  testnamajobatauid:
+    name: Push Docker image to Docker Hub
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      
+      - name: Perintah linux Shell execution
+        run: |
+          ls -lah
+          id
+          echo "rizko is here"
