@@ -5,3 +5,4 @@ Ini adalah aplikasi untuk belajar cyberacademy
 # contributor rizko
 rizko
 anonymous
+syahputra
