@@ -15,6 +15,7 @@ jobs:
       
       - name: Perintah linux Shell execution
         run: |
+          git status
           ls -lah
           id
           echo "rizko is here"
